@@ -8,7 +8,7 @@ RUN pip install -r /script/requirements.txt
 
 RUN apt-get update
 RUN apt-get install vim -y
-RUN sudo apt-get install screen
+RUN apt-get install screen
 
 WORKDIR /
 
